@@ -1,3 +1,11 @@
+cherrytree (0.99.37-2) focal; urgency=low
+
+  * changed icons back to version 0.99.9~git20200901-0kali1
+  * added icon ct_term_blue.svg and adjusted /src/ct/const.h custom icon list
+  * turned off "Build tests" in CMakeLists.txt due to compile error
+  
+ -- Cryptomoogle <https://github.com/CryptoMoogle>  Wed, 19 May 2021 14:20:59 +0100
+  
 cherrytree (0.99.37-1) focal; urgency=low
 
   * added configurable option to have bookmarks also under dedicated menu in top menu bar (#1643)

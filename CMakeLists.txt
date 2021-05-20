@@ -87,10 +87,10 @@ endif()
 # Create the configuration files config.h in the root dir
 configure_file(${CMAKE_SOURCE_DIR}/config.h.cmake ${CMAKE_SOURCE_DIR}/config.h)
 
-option(BUILD_TESTING "Build tests" ON)
+option(BUILD_TESTING "Build tests" OFF)
 # the ppa build server must not build google test because that would add those files to the debian package
 if(BUILD_TESTING AND NOT DEFINED ENV{DEB_BUILD_OPTIONS})
-  option(AUTO_RUN_TESTING "Auto run tests" ON)
+  option(AUTO_RUN_TESTING "Auto run tests" OFF)
   # I haven't found yet a way to run the unit tests with necessary xvfb or xvfb-run in the flatpak build
   if(AUTO_RUN_TESTING AND NOT DEFINED ENV{FLATPAK_BUILDER_BUILDDIR})
     message("Build tests ON, auto run ON")

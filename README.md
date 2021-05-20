@@ -2,6 +2,10 @@
 A hierarchical note taking application, featuring rich text and syntax highlighting, storing data in a single XML or SQLite file.
 The project home page is [giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/).
 
+# Changes Made
+This version of Cherrytree uses the icons from the 0.99.9~git20200901-0kali1 relase and I have added a new icon ct_term_blue.svg and adjusted /src/ct/const.h custom icon list to make use of the icon.
+Some icons from pre made templates may display incorrectly due to the update of the icon list in /src/ct/const.h and will need to be adjusted back for this version of Cherrytree.
+
 # Installation Guide
 
 - [Debian/Linux Mint/Ubuntu](#building-cherrytree-on-ubuntu-2004)

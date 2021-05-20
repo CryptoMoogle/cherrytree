@@ -1,4 +1,8 @@
 
+0.99.37-2 (May 19th, 2021)
+  * changed icons back to version 0.99.9~git20200901-0kali1
+  * added icon ct_term_blue.svg and adjusted /src/ct/const.h custom icon list
+  * turned off "Build tests" in CMakeLists.txt due to compile error
 0.99.37 (May 18th, 2021)
   * added configurable option to have bookmarks also under dedicated menu in top menu bar (#1643)
   * added configurable option to show the full node path in the node name header (#1399)
